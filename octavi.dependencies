@@ -1,6 +1,6 @@
 [
-    {
-        "repository":   "device_xiaomi_sm6150-common",
+    {   "remote":	"github",       
+        "repository":   "OctaviOS-Devices/device_xiaomi_sm6150-common",
         "target_path":  "device/xiaomi/sm6150-common"
     },
     {
@@ -9,8 +9,8 @@
         "remote":       "github",
         "branch":       "LA.UM.9.x"
     },
-    {
-        "repository":   "vendor_xiaomi_surya",
+    {   "remote":	"github",
+        "repository":   "OctaviOS-Devices/vendor_xiaomi_surya",
         "target_path":  "vendor/xiaomi/surya"
     }
 ]
