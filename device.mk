@@ -17,6 +17,10 @@ $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
